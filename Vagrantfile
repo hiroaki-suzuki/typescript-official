@@ -12,5 +12,6 @@ Vagrant.configure("2") do |config|
     curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
     yum -y install nodejs
     npm install -g typescript
+    npm install -g gulp-cli
   SHELL
 end
